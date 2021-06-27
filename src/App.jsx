@@ -6,12 +6,12 @@ export default function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
+    <div className="text-center">
+      <header className="bg-gray-800 min-h-screen flex flex-col items-center justify-center text-xl text-white">
+        <img src={logo} className="animate-logo h-[40vmin] pointer-events-none" alt="logo" />
+        <p>Hello React + Tailwind + TypeScript + Vite!</p>
         <p>
-          <button type="button" onClick={() => setCount((count) => count + 1)}>
+          <button type="button" className="text-xl" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
         </p>
@@ -20,7 +20,7 @@ export default function App() {
         </p>
         <p>
           <a
-            className="App-link"
+            className="text-blue-300"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
@@ -29,7 +29,7 @@ export default function App() {
           </a>
           {' | '}
           <a
-            className="App-link"
+            className="text-blue-300"
             href="https://vitejs.dev/guide/features.html"
             target="_blank"
             rel="noopener noreferrer"
