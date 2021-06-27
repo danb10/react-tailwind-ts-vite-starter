@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["vite/client"],
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
@@ -14,6 +15,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react",
+    "rootDir": "./src",
     "baseUrl": "src",
     "paths": {
       "@/*": ["./*"]

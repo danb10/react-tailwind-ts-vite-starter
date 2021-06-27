@@ -8,10 +8,18 @@ export default function App() {
   return (
     <div className="text-center">
       <header className="bg-gray-800 min-h-screen flex flex-col items-center justify-center text-xl text-white">
-        <img src={logo} className="animate-logo h-[40vmin] pointer-events-none" alt="logo" />
+        <img
+          src={logo}
+          className="animate-logo h-[40vmin] pointer-events-none"
+          alt="logo"
+        />
         <p>Hello React + Tailwind + TypeScript + Vite!</p>
         <p>
-          <button type="button" className="text-xl" onClick={() => setCount((count) => count + 1)}>
+          <button
+            type="button"
+            className="text-xl"
+            onClick={() => setCount(count => count + 1)}
+          >
             count is: {count}
           </button>
         </p>
